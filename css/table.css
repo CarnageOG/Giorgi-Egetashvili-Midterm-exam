@@ -366,13 +366,15 @@ tr:hover td {
   flex: 1;
   margin-bottom: 36px;
 }
-.footer-p{
+.footer-h6{
   font-size: 16px;
   margin-bottom: 36px;
   color: #222222;
+  font-family: 'Avenir LT Pro 55 Heavy';
 }
 footer ul {
   list-style-type: none;
+  font-family: 'Avenir LT Pro Book';
 }
 footer li {
   margin-bottom: 14px;
