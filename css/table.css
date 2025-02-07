@@ -1,17 +1,109 @@
+@font-face {
+    font-family: 'Avenir LT Pro 55 Heavy';
+    src: url('../fonts/AvenirLTPro-Heavy.eot');
+    src: url('../fonts/AvenirLTPro-Heavy.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/AvenirLTPro-Heavy.woff2') format('woff2'), 
+    url('../fonts/AvenirLTPro-Heavy.woff') format('woff'), 
+    url('../fonts/AvenirLTPro-Heavy.ttf') format('truetype'), 
+    url('../fonts/AvenirLTPro-Heavy.svg#AvenirLTPro-Heavy') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.font-family-Heavy{
+  font-family: 'Avenir LT Pro 55 Heavy';
+}
+
+@font-face {
+    font-family: 'Avenir LT Pro Medium';
+    src: url('../fonts/AvenirLTPro-Medium.eot');
+    src: url('../fonts/AvenirLTPro-Medium.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/AvenirLTPro-Medium.woff2') format('woff2'), 
+    url('../fonts/AvenirLTPro-Medium.woff') format('woff'), 
+    url('../fonts/AvenirLTPro-Medium.ttf') format('truetype'), 
+    url('../fonts/AvenirLTPro-Medium.svg#AvenirLTPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-family-Medium{
+  font-family: 'Avenir LT Pro Medium';
+}
+
+@font-face {
+    font-family: 'Avenir LT Pro Book';
+    src: url('../fonts/AvenirLTPro-Book.eot');
+    src: url('../fonts/AvenirLTPro-Book.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/AvenirLTPro-Book.woff2') format('woff2'), 
+    url('../fonts/AvenirLTPro-Book.woff') format('woff'), 
+    url('../fonts/AvenirLTPro-Book.ttf') format('truetype'), 
+    url('../fonts/AvenirLTPro-Book.svg#AvenirLTPro-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.font-family-Book{
+  font-family: 'Avenir LT Pro Book';
+}
+
+@font-face {
+    font-family: 'Avenir LT Pro Light';
+    src: url('../fonts/AvenirLTPro-Light.eot');
+    src: url('../fonts/AvenirLTPro-Light.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/AvenirLTPro-Light.woff2') format('woff2'), 
+    url('../fonts/AvenirLTPro-Light.woff') format('woff'), 
+    url('../fonts/AvenirLTPro-Light.ttf') format('truetype'), 
+    url('../fonts/AvenirLTPro-Light.svg#AvenirLTPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+.font-family-Light{
+  font-family: 'Avenir LT Pro Light';
+}
+
+@font-face {
+    font-family: 'Avenir LT Pro Roman';
+    src: url('../fonts/AvenirLTPro-Roman.eot');
+    src: url('../fonts/AvenirLTPro-Roman.eot#iefix') format('embedded-opentype'), 
+    url('../fonts/AvenirLTPro-Roman.woff2') format('woff2'), 
+    url('../onts/AvenirLTPro-Roman.woff') format('woff'), 
+    url('../fonts/AvenirLTPro-Roman.ttf') format('truetype'), 
+    url('../fonts/AvenirLTPro-Roman.svg#AvenirLTPro-Roman') format('svg');
+    font-weight normal;
+    font-style normal;
+    font-display swap;
+}
+.font-family-Roman{
+  font-family: 'Avenir LT Pro Roman';
+}
+
+@font-face {
+    font-family: 'Avenir LT Pro 65 Black';
+    src: url('../fonts/AvenirLTPro-Black.eot');
+    src: url('../fonts/AvenirLTPro-Black.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/AvenirLTPro-Black.woff2') format('woff2'), 
+    url('../fonts/AvenirLTPro-Black.woff') format('woff'), 
+    url('../fonts/AvenirLTPro-Black.ttf') format('truetype'), 
+    url('../fonts/AvenirLTPro-Black.svg#AvenirLTPro-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+.font-family-Black{
+  font-family: 'Avenir LT Pro 65 Black';
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.container{
-  width: 1099px;
-  max-width: 100%;
-  padding: 0 16px;
-}
 header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 68px;
+  margin-bottom: 71px;
 }
 .search{
   background-color: #F8F8F8;
@@ -34,11 +126,13 @@ header{
   outline: none;
   font-size: 14px;
   padding-left: 20px;
+  opacity: 0.5;
 }
 .search-button{
   border: none;
   cursor: pointer;
   padding-right: 20px;
+  background-color: #F8F8F8;
 }
 .div-account{
   display: flex;
@@ -83,8 +177,15 @@ header{
   border-radius: 12px;
 }
 
+
+
+
+
+
+
 .fixed-header {
-  width: 319px;
+  max-width: 319px;
+  width: 100%;
   max-height: 1080px;
   height: 100%;
   background-color: #222222;
@@ -96,7 +197,6 @@ header{
   padding-left: 30px;
 /*  position: fixed;*/
 }
-
 .header-top {
   display: flex;
   justify-content: space-between;
@@ -111,11 +211,9 @@ header{
   width: 26px;
   height: 11px;
 }
-
 ul {
   list-style: none;
 }
-
 .menu-item {
   display: flex;
   align-items: center;
@@ -127,27 +225,22 @@ ul {
   padding-left: 30px;
   border-radius: 12px;
 }
-
 .menu-img {
   width: 24px;
   height: 24px;
 }
-
 .menu-item.active {
   background-color: #FF2288;
 }
-
 .menu-item:hover {
   background-color: #333333;
 }
-
 .following-title {
   margin-top: 69px;
   font-size: 12px;
   font-weight: bold;
   color: #FFFFFF;
 }
-
 .following-list {
   display: flex;
   flex-direction: column;
@@ -155,7 +248,6 @@ ul {
   margin-top: 31px;
   padding-bottom: 19px;
 }
-
 .following-item {
   display: flex;
   align-items: center;
@@ -164,32 +256,40 @@ ul {
   color: white;
   border-radius: 8px;
 }
-
 .following-img {
   height: 44px;
   width: 44px;
 }
-
 .following-item:hover {
   background-color: #333333;
 }
 .following-p{
   font-size: 16px;
 }
-
 .load-more {
   font-size: 14px;
   color: #FFFFFF;
   text-decoration: none;
   cursor: pointer;
 }
-
 .load-more:hover {
   text-decoration: underline;
 }
 .translate{
   padding-left: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 table{
   width: 100%;
@@ -244,10 +344,23 @@ tr:hover td {
   border-bottom: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  margin-top: 131px;
 }
 .footer-column {
   flex: 1;
@@ -276,7 +389,7 @@ footer ul li a:hover {
   padding-bottom: 25px;
 }
 .margin{
-  margin-bottom: 113px;
+  margin-bottom: 77px;
 }
 .footer-img{
   width: 24px;
@@ -293,7 +406,7 @@ footer ul li a:hover {
   gap: 3px;
 }
 .dark{
-
+  font-weight: bold;
 }
 .flex-contact{
   display: flex;
