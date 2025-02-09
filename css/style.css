@@ -320,19 +320,19 @@ ul {
     align-items: center;
 }
 .filter-btn {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #222222;
-    padding-top: 16px;
-    padding-right: 24px;
-    padding-bottom: 16px;
-    padding-left: 18px;
-    font-size: 16px;
-    border-radius: 20px;
-    transition: background-color 0.3s ease;
-    background-color: #FFFFFF;
-    border: 1px solid #D8D8D8;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #222222;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 18px;
+  font-size: 16px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  background-color: #FFFFFF;
+  border: 1px solid #D8D8D8;
 }
 .filter-label{
   padding-left: 15px;
@@ -344,7 +344,6 @@ ul {
     width: 24px;
     height: 24px;
 }
-
 .articles {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -357,6 +356,7 @@ ul {
   border-radius: 12px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   max-width: 289px;
+  position: relative;
 }
 .card:hover {
   transform: scale(1.05);
@@ -374,28 +374,45 @@ ul {
   color: #222222;
   margin-top: 16px;
 }
-
+.hover-images {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  display: none;
+  gap: 10px;
+}
+.card:hover .hover-images {
+  display: flex;
+  flex-direction: column;
+}
+.hover-images img {
+  width: 34px;
+  height: 34px;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+  padding: 5px;
+}
 .load-more {
-    margin-top: 70px;
-    margin-bottom: 70px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 .load-more-button {
   display: ;
-    background-color: #F2F2F2;
-    color: #333;
-    padding-top: 16px;
-    padding-right: 108px;
-    padding-bottom: 19px;
-    padding-left: 105px;
-    border-radius: 12px;
-    cursor: pointer;
-    font-size: 16px;
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
+  background-color: #F2F2F2;
+  color: #333;
+  padding-top: 16px;
+  padding-right: 108px;
+  padding-bottom: 19px;
+  padding-left: 105px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
 }
 .load-more-button:hover {
-    background-color: #e5e7eb;
-    color: #000;
+  background-color: #e5e7eb;
+  color: #000;
 }
 
 
