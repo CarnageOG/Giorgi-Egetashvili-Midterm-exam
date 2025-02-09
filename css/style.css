@@ -384,6 +384,7 @@ ul {
 .card:hover .hover-images {
   display: flex;
   flex-direction: column;
+  transition: transform 0.3s ease;
 }
 .hover-images img {
   width: 34px;
@@ -391,6 +392,7 @@ ul {
   border-radius: 12px;
   background-color: #FFFFFF;
   padding: 5px;
+  cursor: pointer;
 }
 .load-more {
   margin-top: 70px;
