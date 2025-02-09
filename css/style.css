@@ -100,7 +100,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-header{
+.header-container{
   display: flex;
   justify-content: space-between;
   margin-bottom: 71px;
@@ -189,7 +189,6 @@ header{
   padding-right: 30px;
   padding-bottom: 106px;
   padding-left: 30px;
-/*  position: fixed;*/
 }
 .header-top {
   display: flex;
@@ -573,9 +572,6 @@ footer ul li a:hover {
   display: flex;
   align-items: center;
   gap: 3px;
-}
-.dark{
-  font-weight: bold;
 }
 .flex-contact{
   display: flex;

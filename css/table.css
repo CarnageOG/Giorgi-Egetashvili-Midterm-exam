@@ -407,9 +407,6 @@ footer ul li a:hover {
   align-items: center;
   gap: 3px;
 }
-.dark{
-  font-weight: bold;
-}
 .flex-contact{
   display: flex;
   justify-content: space-between;
