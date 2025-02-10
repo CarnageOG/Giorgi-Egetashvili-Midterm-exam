@@ -103,6 +103,7 @@
 
 body{
   display: grid;
+  grid-template-columns: 18% 82%;
   grid-template-areas:
       "LEFT RIGHT"
 
