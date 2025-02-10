@@ -100,15 +100,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  display: grid;
+  grid-template-areas:
+      "LEFT RIGHT"
+
+}
+.div-left{
+  grid-area: LEFT;
+  position: fixed;
+}
+.div-right{
+  grid-area: RIGHT;
+}
+
+
+
+
+
+
+
+
 .header-container{
   max-width: 1485px;
   width: 100%;
-  margin: 0 auto;
+}
+.header-display{
   display: flex;
   justify-content: space-between;
   margin-bottom: 71px;
   padding-top: 30px;
-  padding-left: 25px;
 }
 .search{
   background-color: #F8F8F8;
@@ -182,8 +204,7 @@
 
 
 .fixed-header {
-  max-width: 319px;
-  width: 100%;
+  width: 319px;
   background-color: #222222;
   display: flex;
   flex-direction: column;
@@ -261,13 +282,13 @@ ul {
 .following-p{
   font-size: 16px;
 }
-.load-more {
+.load-more-left {
   font-size: 14px;
   color: #FFFFFF;
   text-decoration: none;
   cursor: pointer;
 }
-.load-more:hover {
+.load-more-left:hover {
   text-decoration: underline;
 }
 .translate{
@@ -278,20 +299,20 @@ ul {
 
 
 
-section{
+.section1-container{
   max-width: 1231px;
   width: 100%;
   margin: 0 auto;
 }
 .nav-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .nav-list {
-    list-style-type: none;
-    display: flex;
-    gap: 14px;
+  list-style-type: none;
+  display: flex;
+  gap: 14px;
 }
 .selected{
   background-color: #F2F2F2;
@@ -315,14 +336,14 @@ section{
   color: #222222;
 }
 .nav-link {
-    text-decoration: none;
-    color: #222222;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+  text-decoration: none;
+  color: #222222;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
 }
 .filter-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .filter-btn {
   display: flex;
@@ -343,11 +364,11 @@ section{
   padding-left: 15px;
 }
 .filter-btn:hover {
-    background-color: #F2F2F2;
+  background-color: #F2F2F2;
 }
 .filter-icon {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 .articles {
   display: grid;
@@ -400,6 +421,8 @@ section{
   cursor: pointer;
 }
 .load-more {
+  display: flex;
+  justify-content: center;
   margin-top: 70px;
   margin-bottom: 70px;
 }
@@ -462,6 +485,7 @@ section a {
   gap: 25px;
 }
 .designer {
+  max-width: 132px;
   text-align: center; 
   flex-shrink: 0;
   transition: transform 0.2s;
@@ -470,8 +494,10 @@ section a {
   transform: scale(1.05);
 }
 .designer-img {
-  width: 132px;
-  height: 132px;
+  max-width: 132px;
+  width: 100%;
+  max-height: 132px;
+  height: 100%;
   margin-bottom: 15px;
 }
 .designer-button {
@@ -525,7 +551,7 @@ h5{
 
 
 
-footer{
+.footer-container{
   max-width: 1231px;
   width: 100%;
   margin: 0 auto;
