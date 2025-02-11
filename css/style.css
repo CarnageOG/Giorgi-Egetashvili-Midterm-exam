@@ -245,10 +245,10 @@ body {
   height: 32px;
 }
 
-/* .dropping-pages {
+.dropping-pages {
   width: 26px;
   height: 11px;
-} */
+}
 
 ul {
   list-style: none;
@@ -737,7 +737,7 @@ header {
 .open-sidebar-button {
   display: none;
   position: absolute;
-  top: 7%;
+  top: 4.5%;
   left: 1.5%;
 }
 

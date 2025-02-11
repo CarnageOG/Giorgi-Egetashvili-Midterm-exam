@@ -66,6 +66,23 @@
         margin-top: 30px;
     }
 
+    .fixed-header{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+   .header-top{
+    margin-bottom: 10px;
+   }
+
+   .following-title{
+    margin-top: 20px;
+   }
+
+   .following-list{
+    margin-top: 15px;
+   }
+
     .div-left {
         display: none;
     }
