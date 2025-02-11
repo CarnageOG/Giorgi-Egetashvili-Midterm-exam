@@ -125,11 +125,6 @@ body {
 
 
 
-
-
-
-
-
 .header-container {
   max-width: 1485px;
   width: 100%;
@@ -137,7 +132,8 @@ body {
 
 .header-display {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   margin-bottom: 71px;
   padding-top: 30px;
 }
@@ -737,7 +733,7 @@ header {
 .open-sidebar-button {
   display: none;
   position: absolute;
-  top: 4.5%;
+  top: 5%;
   left: 1.5%;
 }
 
