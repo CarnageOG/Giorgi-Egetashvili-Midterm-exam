@@ -132,7 +132,7 @@ body {
 
 .header-display {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 71px;
   padding-top: 30px;
