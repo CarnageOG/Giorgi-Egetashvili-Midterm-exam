@@ -1,118 +1,125 @@
 @font-face {
-    font-family: 'Avenir LT Pro 55 Heavy';
-    src: url('../fonts/AvenirLTPro-Heavy.eot');
-    src: url('../fonts/AvenirLTPro-Heavy.eot?#iefix') format('embedded-opentype'), 
-    url('../fonts/AvenirLTPro-Heavy.woff2') format('woff2'), 
-    url('../fonts/AvenirLTPro-Heavy.woff') format('woff'), 
-    url('../fonts/AvenirLTPro-Heavy.ttf') format('truetype'), 
+  font-family: 'Avenir LT Pro 55 Heavy';
+  src: url('../fonts/AvenirLTPro-Heavy.eot');
+  src: url('../fonts/AvenirLTPro-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTPro-Heavy.woff2') format('woff2'),
+    url('../fonts/AvenirLTPro-Heavy.woff') format('woff'),
+    url('../fonts/AvenirLTPro-Heavy.ttf') format('truetype'),
     url('../fonts/AvenirLTPro-Heavy.svg#AvenirLTPro-Heavy') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
-.font-family-Heavy{
+
+.font-family-Heavy {
   font-family: 'Avenir LT Pro 55 Heavy';
 }
 
 @font-face {
-    font-family: 'Avenir LT Pro Medium';
-    src: url('../fonts/AvenirLTPro-Medium.eot');
-    src: url('../fonts/AvenirLTPro-Medium.eot?#iefix') format('embedded-opentype'), 
-    url('../fonts/AvenirLTPro-Medium.woff2') format('woff2'), 
-    url('../fonts/AvenirLTPro-Medium.woff') format('woff'), 
-    url('../fonts/AvenirLTPro-Medium.ttf') format('truetype'), 
+  font-family: 'Avenir LT Pro Medium';
+  src: url('../fonts/AvenirLTPro-Medium.eot');
+  src: url('../fonts/AvenirLTPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTPro-Medium.woff2') format('woff2'),
+    url('../fonts/AvenirLTPro-Medium.woff') format('woff'),
+    url('../fonts/AvenirLTPro-Medium.ttf') format('truetype'),
     url('../fonts/AvenirLTPro-Medium.svg#AvenirLTPro-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
-.font-family-Medium{
+.font-family-Medium {
   font-family: 'Avenir LT Pro Medium';
 }
 
 @font-face {
-    font-family: 'Avenir LT Pro Book';
-    src: url('../fonts/AvenirLTPro-Book.eot');
-    src: url('../fonts/AvenirLTPro-Book.eot?#iefix') format('embedded-opentype'), 
-    url('../fonts/AvenirLTPro-Book.woff2') format('woff2'), 
-    url('../fonts/AvenirLTPro-Book.woff') format('woff'), 
-    url('../fonts/AvenirLTPro-Book.ttf') format('truetype'), 
+  font-family: 'Avenir LT Pro Book';
+  src: url('../fonts/AvenirLTPro-Book.eot');
+  src: url('../fonts/AvenirLTPro-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTPro-Book.woff2') format('woff2'),
+    url('../fonts/AvenirLTPro-Book.woff') format('woff'),
+    url('../fonts/AvenirLTPro-Book.ttf') format('truetype'),
     url('../fonts/AvenirLTPro-Book.svg#AvenirLTPro-Book') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-.font-family-Book{
+
+.font-family-Book {
   font-family: 'Avenir LT Pro Book';
 }
 
 @font-face {
-    font-family: 'Avenir LT Pro Light';
-    src: url('../fonts/AvenirLTPro-Light.eot');
-    src: url('../fonts/AvenirLTPro-Light.eot?#iefix') format('embedded-opentype'), 
-    url('../fonts/AvenirLTPro-Light.woff2') format('woff2'), 
-    url('../fonts/AvenirLTPro-Light.woff') format('woff'), 
-    url('../fonts/AvenirLTPro-Light.ttf') format('truetype'), 
+  font-family: 'Avenir LT Pro Light';
+  src: url('../fonts/AvenirLTPro-Light.eot');
+  src: url('../fonts/AvenirLTPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTPro-Light.woff2') format('woff2'),
+    url('../fonts/AvenirLTPro-Light.woff') format('woff'),
+    url('../fonts/AvenirLTPro-Light.ttf') format('truetype'),
     url('../fonts/AvenirLTPro-Light.svg#AvenirLTPro-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
-.font-family-Light{
+
+.font-family-Light {
   font-family: 'Avenir LT Pro Light';
 }
 
 @font-face {
-    font-family: 'Avenir LT Pro Roman';
-    src: url('../fonts/AvenirLTPro-Roman.eot');
-    src: url('../fonts/AvenirLTPro-Roman.eot#iefix') format('embedded-opentype'), 
-    url('../fonts/AvenirLTPro-Roman.woff2') format('woff2'), 
-    url('../onts/AvenirLTPro-Roman.woff') format('woff'), 
-    url('../fonts/AvenirLTPro-Roman.ttf') format('truetype'), 
+  font-family: 'Avenir LT Pro Roman';
+  src: url('../fonts/AvenirLTPro-Roman.eot');
+  src: url('../fonts/AvenirLTPro-Roman.eot#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTPro-Roman.woff2') format('woff2'),
+    url('../onts/AvenirLTPro-Roman.woff') format('woff'),
+    url('../fonts/AvenirLTPro-Roman.ttf') format('truetype'),
     url('../fonts/AvenirLTPro-Roman.svg#AvenirLTPro-Roman') format('svg');
-    font-weight normal;
-    font-style normal;
-    font-display swap;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-.font-family-Roman{
+
+.font-family-Roman {
   font-family: 'Avenir LT Pro Roman';
 }
 
 @font-face {
-    font-family: 'Avenir LT Pro 65 Black';
-    src: url('../fonts/AvenirLTPro-Black.eot');
-    src: url('../fonts/AvenirLTPro-Black.eot?#iefix') format('embedded-opentype'), 
-    url('../fonts/AvenirLTPro-Black.woff2') format('woff2'), 
-    url('../fonts/AvenirLTPro-Black.woff') format('woff'), 
-    url('../fonts/AvenirLTPro-Black.ttf') format('truetype'), 
+  font-family: 'Avenir LT Pro 65 Black';
+  src: url('../fonts/AvenirLTPro-Black.eot');
+  src: url('../fonts/AvenirLTPro-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTPro-Black.woff2') format('woff2'),
+    url('../fonts/AvenirLTPro-Black.woff') format('woff'),
+    url('../fonts/AvenirLTPro-Black.ttf') format('truetype'),
     url('../fonts/AvenirLTPro-Black.svg#AvenirLTPro-Black') format('svg');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
-.font-family-Black{
+
+.font-family-Black {
   font-family: 'Avenir LT Pro 65 Black';
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   display: grid;
   grid-template-columns: 18% 82%;
   grid-template-areas:
-      "LEFT RIGHT"
+    "LEFT RIGHT"
 
 }
-.div-left{
+
+.div-left {
   grid-area: LEFT;
   position: fixed;
 }
-.div-right{
+
+.div-right {
   grid-area: RIGHT;
 }
 
@@ -123,17 +130,19 @@ body{
 
 
 
-.header-container{
+.header-container {
   max-width: 1485px;
   width: 100%;
 }
-.header-display{
+
+.header-display {
   display: flex;
   justify-content: space-between;
   margin-bottom: 71px;
   padding-top: 30px;
 }
-.search{
+
+.search {
   background-color: #F8F8F8;
   width: 446px;
   height: 56px;
@@ -142,12 +151,14 @@ body{
   align-items: center;
   border-radius: 12px;
 }
-.search-img{
+
+.search-img {
   width: 24px;
   height: 24px;
   background-color: #F8F8F8;
 }
-.search-input{
+
+.search-input {
   border: none;
   background-color: #F8F8F8;
   outline: none;
@@ -155,37 +166,44 @@ body{
   padding-left: 20px;
   opacity: 0.5;
 }
-.search-button{
+
+.search-button {
   border: none;
   cursor: pointer;
   padding-right: 20px;
   background-color: #F8F8F8;
 }
-.div-account{
+
+.div-account {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 30px;
 }
-.a-account{
+
+.a-account {
   color: #FF2288;
   text-decoration: none;
   font-size: 14px;
   padding-right: 5px;
 }
-.img-account{
+
+.img-account {
   max-width: 24px;
   max-height: 24px;
 }
-.return-link-img{
+
+.return-link-img {
   max-width: 24px;
   max-height: 24px;
 }
-.main-account-photo{
+
+.main-account-photo {
   width: 56px;
   height: 56px;
 }
-.button-account{
+
+.button-account {
   border: none;
   cursor: pointer;
   background-color: #FF2288;
@@ -214,23 +232,28 @@ body{
   padding-bottom: 106px;
   padding-left: 30px;
 }
+
 .header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 106px;
 }
+
 .logo {
   max-width: 146px;
   height: 32px;
 }
-.dropping-pages{
+
+/* .dropping-pages {
   width: 26px;
   height: 11px;
-}
+} */
+
 ul {
   list-style: none;
 }
+
 .menu-item {
   display: flex;
   align-items: center;
@@ -242,22 +265,27 @@ ul {
   padding-left: 30px;
   border-radius: 12px;
 }
+
 .menu-img {
   width: 24px;
   height: 24px;
 }
+
 .menu-item.active {
   background-color: #FF2288;
 }
+
 .menu-item:hover {
   background-color: #333333;
 }
+
 .following-title {
   margin-top: 69px;
   font-size: 12px;
   font-weight: bold;
   color: #FFFFFF;
 }
+
 .following-list {
   display: flex;
   flex-direction: column;
@@ -265,6 +293,7 @@ ul {
   margin-top: 31px;
   padding-bottom: 19px;
 }
+
 .following-item {
   display: flex;
   align-items: center;
@@ -273,26 +302,32 @@ ul {
   color: white;
   border-radius: 8px;
 }
+
 .following-img {
   height: 44px;
   width: 44px;
 }
+
 .following-item:hover {
   background-color: #333333;
 }
-.following-p{
+
+.following-p {
   font-size: 16px;
 }
+
 .load-more-left {
   font-size: 14px;
   color: #FFFFFF;
   text-decoration: none;
   cursor: pointer;
 }
+
 .load-more-left:hover {
   text-decoration: underline;
 }
-.translate{
+
+.translate {
   padding-left: 30px;
 }
 
@@ -300,25 +335,29 @@ ul {
 
 
 
-.section1-container{
+.section1-container {
   max-width: 1231px;
   width: 100%;
   margin: 0 auto;
 }
+
 .nav-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .nav-list {
   list-style-type: none;
   display: flex;
   gap: 14px;
 }
-.selected{
+
+.selected {
   background-color: #F2F2F2;
   border-radius: 12px;
 }
+
 .nav-item {
   display: flex;
   align-items: center;
@@ -327,25 +366,30 @@ ul {
   padding-bottom: 19px;
   padding-left: 18px;
 }
-.nav-item:hover{
+
+.nav-item:hover {
   background-color: #F2F2F2;
   border-radius: 12px;
   transition: background-color 0.3s ease;
 }
-.nav-text{
+
+.nav-text {
   font-size: 16px;
   color: #222222;
 }
+
 .nav-link {
   text-decoration: none;
   color: #222222;
   font-size: 16px;
   transition: background-color 0.3s ease;
 }
+
 .filter-container {
   display: flex;
   align-items: center;
 }
+
 .filter-btn {
   display: flex;
   align-items: center;
@@ -361,16 +405,20 @@ ul {
   background-color: #FFFFFF;
   border: 1px solid #D8D8D8;
 }
-.filter-label{
+
+.filter-label {
   padding-left: 15px;
 }
+
 .filter-btn:hover {
   background-color: #F2F2F2;
 }
+
 .filter-icon {
   width: 24px;
   height: 24px;
 }
+
 .articles {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -378,6 +426,7 @@ ul {
   column-gap: 25px;
   margin-top: 40px;
 }
+
 .card {
   background-color: white;
   border-radius: 12px;
@@ -385,9 +434,11 @@ ul {
   max-width: 289px;
   position: relative;
 }
+
 .card:hover {
   transform: scale(1.05);
 }
+
 .card-img {
   max-width: 289px;
   width: 100%;
@@ -396,11 +447,13 @@ ul {
   box-shadow: 0px 0px 20px #5B5EBA1F;
   border-radius: 12px;
 }
+
 .card-title {
   font-size: 18px;
   color: #222222;
   margin-top: 16px;
 }
+
 .hover-images {
   position: absolute;
   top: 15px;
@@ -408,11 +461,13 @@ ul {
   display: none;
   gap: 10px;
 }
+
 .card:hover .hover-images {
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease;
 }
+
 .hover-images img {
   width: 34px;
   height: 34px;
@@ -421,12 +476,14 @@ ul {
   padding: 5px;
   cursor: pointer;
 }
+
 .load-more {
   display: flex;
   justify-content: center;
   margin-top: 70px;
   margin-bottom: 70px;
 }
+
 .load-more-button {
   background-color: #F2F2F2;
   color: #333;
@@ -440,6 +497,7 @@ ul {
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
 }
+
 .load-more-button:hover {
   background-color: #e5e7eb;
   color: #000;
@@ -455,25 +513,29 @@ ul {
 
 
 
-.section2-container{
+.section2-container {
   max-width: 1231px;
   width: 100%;
   margin: 0 auto;
 }
+
 .div-h1 {
   font-size: 32px;
   color: #222222;
   margin-top: 67px;
   margin-bottom: 54px;
 }
-.view-all{
+
+.view-all {
   font-size: 14px;
   color: #222222;
   opacity: 0.3;
 }
+
 section a {
   text-decoration: none;
 }
+
 .top-header {
   display: flex;
   justify-content: space-between;
@@ -482,18 +544,21 @@ section a {
 
 .designers {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 25px;
 }
+
 .designer {
   max-width: 132px;
-  text-align: center; 
+  text-align: center;
   flex-shrink: 0;
   transition: transform 0.2s;
 }
+
 .designer:hover {
   transform: scale(1.05);
 }
+
 .designer-img {
   max-width: 132px;
   width: 100%;
@@ -501,6 +566,7 @@ section a {
   height: 100%;
   margin-bottom: 15px;
 }
+
 .designer-button {
   display: inline-block;
   background-color: #FAFAFA;
@@ -516,24 +582,27 @@ section a {
   margin-bottom: 60px;
   font-family: 'Avenir LT Pro 55 Heavy';
 }
-}
+
 .designer-button:hover {
   background-color: #EAEAEA;
 }
-h3{
+
+h3 {
   font-size: 16px;
   color: #222222;
   text-align: center;
   font-family: 'Avenir LT Pro Medium';
 }
-h4{
+
+h4 {
   font-size: 16px;
   color: #222222;
   text-align: center;
   margin-bottom: 10px;
   font-family: 'Avenir LT Pro Medium';
 }
-h5{
+
+h5 {
   letter-spacing: 0.36px;
   color: #222222;
   font-size: 12px;
@@ -541,7 +610,8 @@ h5{
   margin-bottom: 17px;
   font-family: 'Avenir LT Pro Book';
 }
-.margin-h3{
+
+.margin-h3 {
   margin-bottom: 31px;
 }
 
@@ -552,64 +622,130 @@ h5{
 
 
 
-.footer-container{
+.footer-container {
   max-width: 1231px;
   width: 100%;
   margin: 0 auto;
 }
+
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 69px;
 }
+
 .footer-column {
   flex: 1;
   margin-bottom: 36px;
 }
-.footer-h6{
+
+.footer-h6 {
   font-size: 16px;
   margin-bottom: 36px;
   color: #222222;
   font-family: 'Avenir LT Pro 55 Heavy';
 }
+
 footer ul {
   list-style-type: none;
   font-family: 'Avenir LT Pro Book';
 }
+
 footer li {
   margin-bottom: 14px;
 }
+
 footer ul li a {
   text-decoration: none;
   color: #222222;
   font-size: 16px;
 }
+
 footer ul li a:hover {
   color: #0073e6;
 }
-.padding{
+
+.padding {
   padding-bottom: 25px;
 }
-.margin{
+
+.margin {
   margin-bottom: 77px;
 }
-.footer-img{
+
+.footer-img {
   width: 24px;
   height: 24px;
 }
-.contact{
+
+.contact {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.owner{
+
+.owner {
   display: flex;
   align-items: center;
   gap: 3px;
 }
-.flex-contact{
+
+.flex-contact {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+
+
+
+
+
+
+
+
+.h_nav {
+  display: flex;
+}
+
+header {
+  z-index: 999;
+}
+
+.links-container {
+  height: 100%;
+}
+
+#sidebar-active,
+.div-left_side {
+  display: none;
+}
+
+.close-sidebar {
+  fill: white;
+  height: 50px;
+  width: 50px;
+  display: none;
+  justify-content: center;
+}
+
+.close-sidebar svg {
+  height: 50px;
+}
+
+.open-sidebar-button {
+  display: none;
+  position: absolute;
+  top: 7%;
+  left: 1.5%;
+}
+
+.close-sidebar-button,
+.chamonatvali {
+  display: none;
+}
+
+.h_nav_R_L_N {
+  padding-bottom: 20px;
 }

@@ -71,9 +71,9 @@
     url('../onts/AvenirLTPro-Roman.woff') format('woff'), 
     url('../fonts/AvenirLTPro-Roman.ttf') format('truetype'), 
     url('../fonts/AvenirLTPro-Roman.svg#AvenirLTPro-Roman') format('svg');
-    font-weight normal;
-    font-style normal;
-    font-display swap;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 .font-family-Roman{
   font-family: 'Avenir LT Pro Roman';
@@ -440,3 +440,41 @@ footer ul li a:hover {
   justify-content: space-between;
   align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////// */
+
+/* 
+#sidebar-active {
+  display: none;
+}
+
+.close-sidebar {
+  fill: rgb(0, 0, 0);
+  height: 50px;
+  width: 50px;
+  display: none;
+  justify-content: center;
+  margin: 3% 0% 0% 76%;
+}
+
+.close-sidebar svg {
+  height: 50px;
+}
+
+.open-sidebar-button,
+.close-sidebar-button,
+.chamonatvali {
+  display: none;
+} */
