@@ -109,7 +109,7 @@
 
 body {
   display: grid;
-  grid-template-columns: 18% 82%;
+  grid-template-columns: 16.5% 83.5%;
   grid-template-areas:
     "LEFT RIGHT"
 
@@ -129,6 +129,7 @@ body {
 .header-container {
   max-width: 1485px;
   width: 100%;
+  padding-left: 30px;
 }
 
 .header-display {
