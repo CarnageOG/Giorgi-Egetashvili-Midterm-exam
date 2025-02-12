@@ -1,4 +1,9 @@
 @media(width <=1024px) {
+    
+    body {
+        grid-template-columns: 0% 100%;
+    }
+    
     .header-container {
         max-width: 1024px;
         padding: 0 16px;
@@ -18,10 +23,6 @@
 
     .section-container {
         max-width: 800px;
-    }
-
-    body {
-        grid-template-columns: 0% 100%;
     }
 
     .search {
